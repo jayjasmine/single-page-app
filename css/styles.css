@@ -1,0 +1,82 @@
+svg {
+    display: block;
+    width: auto;
+    margin: auto;
+}
+
+#top-menu a:active {
+    color: orange !important;
+}
+
+#top-menu a:focus {
+    color: orange !important;
+}
+
+#top-menu a:hover {
+    color: orange !important;
+}
+
+.pages {
+    display: none;
+}
+
+
+/* 8. Override framework defaults for three (3) class of elements */
+.btn-primary {
+    background-color: chocolate;
+    border: none;
+}
+
+.container-sm {
+    margin-bottom: 2em !important;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+table {
+    background-color: beige;
+}
+
+/* Override framework animation one (1) significant way */
+
+.modal {
+    top: 30% !important;
+}
+
+.modal-backdrop {
+    background-color: green;
+}
+
+.zoom-in {
+    transform: scale(0) !important;
+    opacity: 0;
+    -webkit-transition: .5s all 0s;
+    -moz-transition: .5s all 0s;
+    -ms-transition: .5s all 0s;
+    -o-transition: .5s all 0s;
+    transition: .5s all 0s;
+    display: block !important;
+}
+
+.zoom-in.show {
+    opacity: 1;
+    transform: scale(1) !important;
+    transform: none;
+}
+
+/* 9. Override framework defaults for overall layout at least once */
+.modal-header {
+    display: none;
+}
+
+.modal-body {
+    display: flex;
+    justify-content: center;
+}
+
+.modal-footer {
+    justify-content: left;
+    border-top: none;
+}
