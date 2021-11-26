@@ -4,7 +4,7 @@ svg {
     margin: auto;
 }
 
-#top-menu a:active {
+/* #top-menu a:active {
     color: orange !important;
 }
 
@@ -14,7 +14,7 @@ svg {
 
 #top-menu a:hover {
     color: orange !important;
-}
+} */
 
 .pages {
     display: none;

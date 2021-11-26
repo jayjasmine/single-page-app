@@ -9,6 +9,13 @@ function showPage(pageId) {
     let pageToShow = document.getElementById(pageId)
     pageToShow.style.display = "block"
 
+    $('a').click(function () {
+        $('a').css("text-decoration", "none")
+        $(this).css("text-decoration", "underline")
+    })
+
 }
 showPage('page1');
-console.log("working2")
+$('a').first().css("text-decoration", "underline");
+
+// function activeMenu
